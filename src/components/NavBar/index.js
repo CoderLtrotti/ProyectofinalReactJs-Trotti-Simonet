@@ -26,9 +26,7 @@ function Navbar() {
             <li>
               <Link to="/category/peluches">Peluches</Link>
             </li>
-            <li>
-              <Link to="">Contacto</Link>
-            </li>
+           
           </ul>
         </Col>
       </Row>
