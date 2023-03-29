@@ -1,0 +1,12 @@
+.Container {
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 100%;
+    background-color: burlywood;
+    height: 300px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
