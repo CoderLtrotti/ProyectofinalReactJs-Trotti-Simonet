@@ -24,17 +24,17 @@ export function CartContextProvider({ children }) {
 
 
   function removeItemFromCart(id) {
-    /* eliminar/filtrar items con id recibido */
-    /* ESTO ESTÁ MALLL  */
+    /* eliminar/filtrar */
+    
     const newCart = JSON.parse(JSON.stringify(cart));
     newCart.pop();
     setCart(newCart);
   }
 
   function getCountInCart() {
-    /* reduce */
+    
     let total = 0;
-    //for(let i = 0; i < cart.length; i++)
+    
     cart.forEach((item) => total + item.count);
     return total;
  }

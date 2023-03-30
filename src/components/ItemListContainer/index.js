@@ -50,11 +50,6 @@ async function getItemsByCategoryFromDatabase(categoryURL) {
 
 
 
-//hasta aca 
-
-
-
-
 /*
 function getItemsFromDatabase () {
   return new Promise((resolve, reject) => {
