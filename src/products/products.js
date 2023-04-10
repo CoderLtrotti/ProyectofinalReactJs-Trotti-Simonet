@@ -246,7 +246,7 @@ const products = [
     },
 
     {
-      id: 22,
+      id: 30,
       price : 48,
       first_name: "Mickey Mouse Peluche",
       last_name: "",
